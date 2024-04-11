@@ -1,0 +1,26 @@
+//各ファイルは必ず登録済みの変数を最初に読み込みます
+//as *で読み込みファイル名を省略することができます
+@use "../global" as *;
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+    display: block;
+    color: $black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+
+
