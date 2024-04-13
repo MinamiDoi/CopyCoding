@@ -1,3 +1,40 @@
 //各ファイルは必ず登録済みの変数を最初に読み込みます
 //as *で読み込みファイル名を省略することができます
 @use "../global" as *;
+
+.header {
+    position: relative;
+    height: 80vh;
+    background: url(../images/mv_sp.jpg)center bottom / cover;
+
+    &__logo {
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -43%);
+        width: 170px;
+    }
+
+    &__btn {
+        position: fixed;
+        right: 20px;
+        bottom: 10px;
+        width: 48px;
+        height: 48px;
+        background-color: $gray;
+        border-radius: 50%;
+    }
+
+    svg {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        fill: #fff;
+    }
+
+    &__btn__txt {
+        display: none;
+    }
+}

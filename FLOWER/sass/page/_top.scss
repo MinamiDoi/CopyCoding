@@ -2,4 +2,63 @@
 //as *で読み込みファイル名を省略することができます
 @use "../global" as *;
 
+.wrapper {
+    overflow: hidden;
+}
 
+.info {
+    width: 86vw;
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__ttl {
+        margin-bottom: 20px;
+        font-size: 26px;
+        letter-spacing: 0.02em;
+        line-height: 1.7;
+    }
+
+    span {
+        display: inline-block;
+    }
+
+    &__txt {
+        margin-bottom: 60px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.app {
+    padding: 60px 0;
+    background-color: $bgc;
+    text-align: center;
+
+    &__inner {
+        width: 76vw;
+        margin: 0 auto;
+    }
+
+    &__img {
+        width: 76vw;
+        margin-bottom: 60px;
+    }
+
+    &__ttl {
+        margin-bottom: 16px;
+    }
+
+    &__txt {
+        margin-bottom: 30px;
+    }
+
+    &__banner__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__banner{
+        width: 37vw;
+    }
+}
