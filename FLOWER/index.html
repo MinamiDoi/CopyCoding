@@ -7,6 +7,9 @@
   <title>FLOWER</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- stylesheet -->
   <link href="css/style.css" rel="stylesheet" media="all">
   <meta name="robots" content="noindex, nofollow">
 </head>
@@ -17,6 +20,30 @@
     <!-- header -->
     <header class="header">
       <h1 class="header__logo"><img src="images/logo.png" alt="FLOWERのブランドロゴ" class="header__logo__img"></h1>
+      <a href="#" class="header__btn">
+        <div class="header__container">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            width="20px" height="20px" viewBox="0 0 20 20" xml:space="preserve" aria-hidden="true">
+            <g></g>
+            <g></g>
+            <g></g>
+            <g>
+              <g>
+                <g>
+                  <path
+                    d="M11,12.3V13c0,0-1.8,0-2,0v-0.6c0-0.6,0.1-1.4,0.8-2.1c0.7-0.7,1.6-1.2,1.6-2.1c0-0.9-0.7-1.4-1.4-1.4 c-1.3,0-1.4,1.4-1.5,1.7H6.6C6.6,7.1,7.2,5,10,5c2.4,0,3.4,1.6,3.4,3C13.4,10.4,11,10.8,11,12.3z">
+                  </path>
+                  <circle cx="10" cy="15" r="1"></circle>
+                </g>
+                <path
+                  d="M10,2c4.4,0,8,3.6,8,8s-3.6,8-8,8s-8-3.6-8-8S5.6,2,10,2 M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10s10-4.5,10-10S15.5,0,10,0 L10,0z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          <p class="header__btn__txt">サポート</p>
+        </div>
+      </a>
     </header>
 
     <!-- main -->
@@ -32,7 +59,7 @@
       <section class="app">
         <div class="inner">
           <div class="app__main__container">
-            <img src="images/sec02_01.png" alt="FLOWERアプリの画面" class="app__img">
+            <img src="images/app01.png" alt="FLOWERアプリの画面" class="app__img">
             <div class="app__box">
               <h2 class="app__ttl">理想のお花屋さんを、 あなたの手の中に。</h2>
               <p class="app__txt">旬の花をぜいたくに使ったこだわりのブーケを毎週販売。かわいいのに、いつも特別価格。
@@ -49,10 +76,10 @@
       </section>
       <!-- about -->
       <section class="about">
-        <!-- about　los -->
+        <!-- about  los -->
         <artical class="about__los">
           <div class="about__los__container">
-            <img src="images/sec03_01.jpg" alt="花を持っている女性の手元" class="about__los__img">
+            <img src="images/about01.jpg" alt="花を持っている女性の手元" class="about__los__img">
             <div class="about__los__box">
               <h2 class="about__los__ttl">ロスがないから、このボリューム。</h2>
               <p class="about__los__txt">
@@ -62,7 +89,7 @@
             </div>
           </div>
         </artical>
-        <!-- about bouquet -->
+        <!-- about bouquet-->
         <artical class="about__bouquet">
           <div class="about__bouquet__container">
             <div class="about__bouquet__box">
@@ -72,12 +99,12 @@
                 あなたの「かわいい！」を見つけてほしいから、さまざまな雰囲気のブーケをご用意しています。
               </p>
             </div>
-            <img src="images/sec03_02.jpg" alt="並んでいるブーケ" class="about__bouquet__img">
+            <img src="images/about02.jpg" alt="並んでいるブーケ" class="about__bouquet__img">
         </artical>
-        <!-- about　fresh -->
+        <!-- about  fresh -->
         <artical class="about__fresh">
           <div class="about__fresh__container">
-            <img src="images/sec03_03.jpg" alt="花束" class="about__fresh__img">
+            <img src="images/about03.jpg" alt="花束" class="about__fresh__img">
             <div class="about__fresh__box">
               <h2 class="about__fresh__ttl">市場からすぐお届け。だから新鮮。</h2>
               <p class="about__fresh__txt">
@@ -86,22 +113,169 @@
             </div>
           </div>
         </artical>
-
       </section>
-
-
+      <!-- bouquet  / swiper -->
+      <section class="bouquet">
+        <h2 class="bouquet__ttl">販売中のロスレスブーケ</h2>
+        <p class="bouquet__txt">ほぼ毎日新作ブーケ入荷中！アプリからご注文いただけます。</p>
+        <!-- swiper -->
+        <div class="bouquet__swiper">
+          <!-- swiper wrap -->
+          <div class="swiper-wrapper bouquet__container">
+            <!-- swoper slide -->
+            <a href="#" class="swiper-slide bouquet__box">
+              <img src="images/bouq01.jpg" alt="アジアンタム「フレグランス」の写真" class="bouquet__img">
+              <p class="bouquet__box__txt">アジアンタム「フレグランス」</p>
+            </a>
+            <a href="#" class="swiper-slide bouquet__box">
+              <img src="images/bouq02.jpg" alt="フォルモサナアップルの写真" class="bouquet__img">
+              <p class="bouquet__box__txt">フォルモサナアップル</p>
+            </a>
+            <a href="#" class="swiper-slide bouquet__box">
+              <img src="images/bouq03.jpg" alt="フォルモサナコインの写真" class="bouquet__img">
+              <p class="bouquet__box__txt">フォルモサナコイン</p>
+            </a>
+            <a href="#" class="swiper-slide bouquet__box">
+              <img src="images/bouq04.jpg" alt="極楽鳥花(ロングサイズ)の写真" class="bouquet__img">
+              <p class="bouquet__box__txt">極楽鳥花(ロングサイズ)</p>
+            </a>
+            <a href="#" class="swiper-slide bouquet__box">
+              <img src="images/bouq05.jpg" alt="ジェントルフロウの写真" class="bouquet__img">
+              <p class="bouquet__box__txt">ジェントルフロウ</p>
+            </a>
+            <a href="#" class="swiper-slide bouquet__box">
+              <img src="images/bouq06.jpg" alt="アスター「ココットラベンダー」の写真" class="bouquet__img">
+              <p class="bouquet__box__txt">アスター「ココットラベンダー」</p>
+            </a>
+            <a href="#" class="swiper-slide bouquet__box">
+              <img src="images/bouq07.jpg" alt="羽衣ジャスミンの写真" class="bouquet__img">
+              <p class="bouquet__box__txt">羽衣ジャスミン</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- order  / swiper-->
+      <section class="order">
+        <h2 class="order__ttl">FLOWERの楽しみ方</h2>
+        <!-- swiper -->
+        <div class="order__swiper">
+          <!-- swiper wrap -->
+          <div class="swiper-wrapper order__container">
+            <!-- swiper slide -->
+            <div class="swiper-slide order__box">
+              <img src="images/order01.png" alt="アプリで注文する画像" class="order__img">
+              <h3 class="order__subttl">アプリで注文</h3>
+              <p class="order__txt">好みのブーケを選んで注文。新しいブーケが販売されたら、アプリが通知。いつでもどこでも、かんたんにお花を買えちゃいます。</p>
+            </div>
+            <div class="swiper-slide order__box">
+              <img src="images/order02.png" alt="荷物を手渡ししている画像" class="order__img">
+              <h3 class="order__subttl">お家に届く</h3>
+              <p class="order__txt">宅配便でご自宅までお届けします。箱を開けたらかわいいお花にうっとり。受け取ったら、なるべく早く水につけてあげましょう。</p>
+            </div>
+            <div class="swiper-slide order__box">
+              <img src="images/order03.png" alt="花瓶に入ったお花が飾られている画像" class="order__img">
+              <h3 class="order__subttl">FLOWERのある暮らし</h3>
+              <p class="order__txt">お気に入りの場所はもちろん、色々な場所に分けて飾るのも。あなただけの「FLOWERのある暮らし」を楽しんで！</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- insta -->
+      <section class="insta">
+        <div class="insta__inner">
+          <h2 class="insta__ttl">みんなの 「FLOWERのある暮らし」</h2>
+          <div class="insta__container">
+            <a href="#" class="insta__link"><img src="images/insta01.jpg" alt="お花の写真" class="insta__img"></a>
+            <a href="#" class="insta__link"><img src="images/insta02.jpg" alt="お花の写真" class="insta__img"></a>
+            <a href="#" class="insta__link"><img src="images/insta03.jpg" alt="お花の写真" class="insta__img"></a>
+            <a href="#" class="insta__link"><img src="images/insta04.jpg" alt="お花の写真" class="insta__img"></a>
+            <a href="#" class="insta__link"><img src="images/insta05.jpg" alt="お花の写真" class="insta__img"></a>
+            <a href="#" class="insta__link"><img src="images/insta06.jpg" alt="お花の写真" class="insta__img"></a>
+            <a href="#" class="insta__link"><img src="images/insta07.jpg" alt="お花の写真" class="insta__img"></a>
+            <a href="#" class="insta__link"><img src="images/insta08.jpg" alt="お花の写真" class="insta__img"></a>
+          </div>
+          <a href="#" class="insta__btn">#flower_isの投稿をもっと見る</a>
+        </div>
+      </section>
+      <!-- brand -->
+      <section class="brand">
+        <div class="brand__container">
+          <img src="images/brand.vogue.png" alt="VUGUEのブランドロゴ" class="brand__img">
+          <img src="images/brand.an.png" alt="ananのブランドロゴ" class="brand__img">
+          <img src="images/brand.spur.png" alt="SPUR.JPのブランドロゴ" class="brand__img">
+          <img src="images/brand.brutus.png" alt="BRUTUSのブランドロゴ" class="brand__img">
+          <img src="images/brand.elledecor.png" alt="ELLEDECORのブランドロゴ" class="brand__img">
+        </div>
+      </section>
+      <!-- faq -->
+      <section class="faq">
+        <div class="faq__inner">
+          <h2 class="faq__ttl">よくある質問</h2>
+          <h3 class="faq__subttl"> Q. ロスレスブーケはなぜお得なのですか？</h3>
+          <p class="faq__txt">
+            通常、お花は仕入れ価格の3〜5倍ほどで販売されると言われています。店舗の運営や、廃棄される花のコストが含まれることが主な理由。日常的にたっぷりの花を楽しんでほしいから、FLOWERのロスレスブーケはオンラインで限定数の売り切り。花の廃棄（ロス）を生まない仕組みで、手に取りやすい価格を実現しています。
+          </p>
+          <h3 class="faq__subttl">Q. お花が枯れて届いた場合はどうなりますか？</h3>
+          <p class="faq__txt">
+            FLOWERでは到着までに枯れてしまったり、破損してしまったお花については返金にて補償しております。お花の写真をご用意のうえ、アプリの「お問い合わせ」よりお気軽にご連絡ください。
+          </p>
+          <h3 class="faq__subttl">Q. 決済方法は何がありますか？</h3>
+          <p class="faq__txt">
+            クレジットカード決済（VISA、MasterCard、JCB、American Express、Diners Club、DISCOVER）に対応しております。
+          </p>
+          <h3 class="faq__subttl">Q. 対象外のエリアはありますか？</h3>
+          <p class="faq__txt">
+            北海道、沖縄、離島エリアは現在対象外となっております。ご了承くださいませ。
+          </p>
+        </div>
+      </section>
+      <!-- kv -->
+      <section class="kv">
+        <div class="kv__contents">
+          <img src="images/logo.png" alt="FLOWERのブランドロゴ" class="kv__logo">
+          <div class="kv__banner__container">
+            <a href="#" class="kv__banner--kv"><img src="images/banner.app.png" alt="AppStoreのバナー画像"
+                class="kv__banner__img--kv"></a>
+            <a href="#" class="kv__banner--go"><img src="images/banner.go.png" alt="GooglePlayのバナー画像"
+                class="kv__banner__img--go"></a>
+          </div>
+        </div>
+      </section>
     </main>
-
     <!-- footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__inner">
+        <ul class="footer__ul">
+          <li class="footer__list"><a href="#" class="footer__link">よくある質問</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">読みもの</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">特殊</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">プライバシーポリシー</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">利用規約</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">特定商取引法に関する表記</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">利用者情報の外部送信</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">お問い合わせ</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">プレスキット</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">運営会社</a></li>
+        </ul>
+        <a href="#" class="footer__sns__link"><img src="images/icon.insta.png" alt="Instagramのアイコン"
+            class="footer__sns__img"></a>
+        <a href="#" class="footer__sns__link"><img src="images/icon.tw.png" alt="Twitterのアイコン"
+            class="footer__sns__img"></a>
+        <a href="#" class="footer__sns__link"><img src="images/icon.note.png" alt="Noteのアイコン"
+            class="footer__sns__img"></a>
+        <p class="footer__copy"><small class="footer__small">Copyright FLOWER Inc. All Rights Reserved.</small></p>
+      </div>
+    </footer>
+
   </div>
-
-
-
-
-
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- swiper file-->
+  <script src="js/swiper.js"></script>
+  <!-- js file-->
   <script src="js/function.js"></script>
 </body>
 
