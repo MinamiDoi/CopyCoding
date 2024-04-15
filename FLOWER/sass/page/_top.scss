@@ -289,3 +289,16 @@
     }
 }
 
+.kv {
+    background: url(../images/kv.jpg)center center / cover;
+    width: 100%;
+    height: 360px;
+
+    &__logo {
+        display: none;
+    }
+
+    &__banner__container {
+        display: none;
+    }
+}
