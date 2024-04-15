@@ -199,3 +199,50 @@
         width: 40px;
     }
 }
+
+.insta {
+    padding: 60px 0;
+    background-color: $bgc;
+    text-align: center;
+
+    &__ttl {
+        margin-bottom: 24px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    &__link {
+        position: relative;
+        width: 140px;
+    }
+
+    &__container a::before {
+        content: '';
+        display: block;
+        background: url(../images/icon.insta.png)center center / cover;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+    }
+
+    &__btn {
+        width: 327px;
+        height: 60px;
+        margin: 0 auto;
+        border: 2px solid $gray;
+        border-radius: 50px;
+        color: $gray;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 60px;
+    }
+}
