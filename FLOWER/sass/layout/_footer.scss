@@ -1,3 +1,37 @@
 //各ファイルは必ず登録済みの変数を最初に読み込みます
 //as *で読み込みファイル名を省略することができます
 @use "../global" as *;
+
+.footer {
+    padding: 40px 0 120px 0;
+    background-color: $gray;
+
+    &__inner {
+        margin-left: 23px;
+    }
+
+    &__ul {
+        margin-bottom: 48px;
+    }
+
+    &__list {
+        margin-bottom: 16px;
+    }
+
+    &__link {
+        display: inline-block;
+        color: #fff;
+    }
+
+    &__sns__link {
+        display: inline-block;
+        width: 32px;
+        margin-right: 10px;
+    }
+
+    &__copy {
+        margin-top: 40px;
+        color: #fff;
+        opacity: 0.4;
+    }
+}
