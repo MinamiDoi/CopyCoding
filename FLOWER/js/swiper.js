@@ -6,13 +6,27 @@ const swiperBouquet = new Swiper('.bouquet-swiper', {
     centeredSlides: true,
     spaceBetween: 20,
     // speed: 500,
+
+    breakpoints: {
+        600: {
+            slidesPerView: 7,
+        }
+    }
 });
 
 const swiperOrder = new Swiper('.order-swiper', {
     direction: 'horizontal',
     loop: false,
     effect: 'slide',
-    slidesPerView: 1,
+    slidesPerView: 3,
     centeredSlides: true,
 
+// breakpoints: {
+//     600: {
+//         allowTouchMove: false
+//     }
+// }
 });
+
+
+
