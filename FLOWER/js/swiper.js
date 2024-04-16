@@ -18,14 +18,14 @@ const swiperOrder = new Swiper('.order-swiper', {
     direction: 'horizontal',
     loop: false,
     effect: 'slide',
-    slidesPerView: 3,
+    slidesPerView: 1,
     centeredSlides: true,
 
-// breakpoints: {
-//     600: {
-//         allowTouchMove: false
-//     }
-// }
+breakpoints: {
+    600: {
+        slidesPerView: 3,
+    }
+}
 });
 
 
