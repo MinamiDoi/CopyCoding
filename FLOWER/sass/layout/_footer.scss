@@ -8,10 +8,22 @@
 
     &__inner {
         margin-left: 23px;
+
+        @media screen and (min-width: 600px) {
+          margin: 0 auto;
+        }
     }
 
     &__ul {
         margin-bottom: 48px;
+
+        @media screen and (min-width: 600px) {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 24px;
+          padding: 0 24px;
+        }
     }
 
     &__list {
@@ -21,6 +33,11 @@
     &__link {
         display: inline-block;
         color: #fff;
+    }
+
+    &__contents {
+        width: fit-content;
+        margin: 0 auto;
     }
 
     &__sns__link {
@@ -33,5 +50,9 @@
         margin-top: 40px;
         color: #fff;
         opacity: 0.4;
+
+        @media screen and (min-width: 600px) {
+          text-align: center;
+        }
     }
 }
