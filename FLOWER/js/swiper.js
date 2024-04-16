@@ -5,7 +5,6 @@ const swiperBouquet = new Swiper('.bouquet-swiper', {
     slidesPerView: 3,
     centeredSlides: true,
     spaceBetween: 20,
-    // speed: 500,
 
     breakpoints: {
         600: {
