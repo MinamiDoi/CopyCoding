@@ -1,3 +1,3 @@
 ＃模写コーディング練習
-pos-pol
-FLOWER
+-pos-pol
+-FLOWER
